@@ -1,1 +1,5 @@
-mc 
+How to setup CDN to serve up file from s3 bucket usin a cloudFront distributuion.
+
+the file will be distributed globally and when user make a request for a file it get in much more less time 
+
+asdfghmthjgbuhru

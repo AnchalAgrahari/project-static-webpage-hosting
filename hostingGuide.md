@@ -7,11 +7,15 @@ Static Website is consist of fixed content written in HTML, CSS, JS. It dose not
 4. Hosting
 
 ## Hosting Option for static sites
-1. Github pages  : free and easr with github repo
-2. Netlify  : fast, CDN-backed, drag-drop, free-tire
-3. Vercel   : super fast, optimizesd fro React/Next.js
-4. Smazon S3  : Scalabel and intregrated with AWS service
-5. Cloudflare pages  : fast global dilivery, git-integrated
+| Platform           | Features                                                                |
+|--------------------|-------------------------------------------------------------------------|
+| **GitHub Pages**    | Free and easy to use with GitHub repository                            |
+| **Netlify**         | Fast, CDN-backed, drag-and-drop support, generous free tier            |
+| **Vercel**          | Super fast, optimized for React and Next.js                            |
+| **Amazon S3**       | Scalable and integrates well with other AWS services                   |
+| **Cloudflare Pages**| Fast global delivery, Git-integrated                                   |
+
+
 
 
 

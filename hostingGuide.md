@@ -66,7 +66,7 @@ Each page/file should be served via URL and it should be clean SEO-friendly and 
 
 
 
-#Summary
+# Summary
 
 | Concept            | Purpose                          | Mandatory for Static Site?         |
 |--------------------|----------------------------------|------------------------------------|

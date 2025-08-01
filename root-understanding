@@ -1,1 +1,57 @@
- before knowing these
+Q-1. what is a server?
+Q.2. what is hosting ?
+Q.3. what is hosting?
+Q.4.  how the internet works ?
+Q.5. what is latency and bandwithd?
+
+CDN:Content Delivery Network 
+ concept:
+it is like mini server all arount the world . Instead of loading a website  from the main server , it ;loads from seerver near your location.
+
+ used:
+fast loading
+less server crash
+handle more users at once
+gives better experience
+
+ CDN works : from example
+You open a video → your browser checks the nearest CDN server → if it has the video, it gives it instantly → if not, it fetches from the main server and stores it for next time.
+
+ providers:
+cloudflare, akamai, amazon cloudfront, fastly
+
+SNS: Amazon Simple Notification Service
+ 
+ concept :
+toole by AWS to sent massage via mail , SMS, or push notification
+
+ use:
+If a server goes down, it can alert your phone/email instantly.
+
+ key concpt :
+Topic = group where messages go.
+Publisher = sends the message.
+Subscriber = receives the message.
+
+ case:
+
+Lambda detects a file in S3 → SNS sends an email alert → you get notified.
+
+
+CloudFlare 
+
+ concept : 
+speed up the website 
+protects it from attack like DDoS(distributed denial-of-service)
+
+ popularity ;
+free plan for small sites
+easy to set up
+global CDN
+block bad traffic
+
+works:
+we put cloudflare in front of our website 
+all traffic gose thrugh cloudflare
+it filterw it , spped it up, frowared it to our server
+

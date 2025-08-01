@@ -1,8 +1,7 @@
 Q-1. what is a server?
 Q.2. what is hosting ?
-Q.3. what is hosting?
-Q.4.  how the internet works ?
-Q.5. what is latency and bandwithd?
+Q.3. how the internet works ?
+Q.4. what is latency and bandwithd?
 
 
 # What is Static Website?
@@ -27,7 +26,7 @@ Static Website is consist of fixed content written in HTML, CSS, JS. It dose not
 
 
 # CDN (Contant Delvery Network)
-*it is like mini server all arount the world . Instead of loading a website  from the main server , it ;loads from seerver near your location.
+* it is like mini server all arount the world . Instead of loading a website  from the main server , it loads from seerver near your location.
 It is a network of srever distributed to deliver static content faster to users.
 It has fastest caues of nereast location avalibality
 It can be able to handle more users at once
@@ -40,10 +39,9 @@ You open a video → your browser checks the nearest CDN server → if it has th
 
 # SNS (Simple Notification Service)
 A massage service , used to send notification, alarms, alarts
-* If a server goes down, it can alert your phone/email instantly.
 Notify via email or SMS if cludflare is invalidated
+* If a server goes down, it can alert your phone/email instantly.
 * Lambda detects a file in S3 → SNS sends an email alert → you get notified.
-
 * ⚠️ SNS is optional for static hosting but useful in event-driven scenarios.
 
 
